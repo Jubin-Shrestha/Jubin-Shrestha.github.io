@@ -1,11 +1,29 @@
 const phones = [
   {
+    name: "Samsung Galaxy S24 Ultra",
+    image: "Samsung-Galaxy-S24-Ultra.jpg",
+    price: "$1,299",
+    specs: {
+      screen: "6.8\" Dynamic AMOLED",
+      processor: "Snapdragon 8 Gen 3",
+      camera: "200MP Main",
+      battery: "5,000 mAh",
+    },
+    rating: 9.6,
+    pros: [
+      "S Pen functionality",
+      "Versatile camera system",
+      "Large bright display",
+      "Long battery life"
+    ],
+  },
+  {
     name: "iPhone 16 Pro Max",
     image: "Iphone-16-Pro-Max.jpg",
     price: "$1,199",
     specs: {
       screen: "6.9\" Super Retina XDR",
-      processor: "A18 Pro chip",
+      processor: "A18 Pro ",
       camera: "48MP Main",
       battery: "4,685 mAh",
     },
@@ -18,34 +36,16 @@ const phones = [
     ],
   },
   {
-    name: "Samsung Galaxy S24 Ultra",
-    image: "S24-Ultra.jpg",
-    price: "$1,299",
-    specs: {
-      screen: "6.8\" Dynamic AMOLED",
-      processor: "Snapdragon 8 Gen 3",
-      camera: "200MP Main",
-      battery: "5,000 mAh",
-    },
-    rating: 9.3,
-    pros: [
-      "S Pen functionality",
-      "Versatile camera system",
-      "Large bright display",
-      "Long battery life"
-    ],
-  },
-  {
-    name: "Google Pixel 9 Pro",
+    name: "Google Pixel 9 Pro XL",
     image: "Pixel-9-Pro.jpg",
-    price: "$999",
+    price: "$1099",
     specs: {
-      screen: "6.3\" LTPO OLED",
+      screen: "6.8\" LTPO OLED",
       processor: "Google Tensor G4",
       camera: "50MP Main",
-      battery: "4700 mAh",
+      battery: "5060 mAh",
     },
-    rating: 9.2,
+    rating: 9.4,
     pros: [
       "Outstanding camera",
       "Clean Android experience",
